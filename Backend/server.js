@@ -4,7 +4,7 @@ const dotenv = require("dotenv").config();
 const cors = require("cors");
 const connectDB = require("./database/connection");
 const customerRoutes = require("./routes/customerRoutes");
-const orderRoutes = require("./routes/orderRoutes");c
+const orderRoutes = require("./routes/orderRoutes");
 
 connectDB();
 app.use(cors({ origin: true, credentials: true }));
